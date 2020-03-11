@@ -1,0 +1,1138 @@
+Request {
+  domain: null,
+  _events: { error: [Function: bound
+    ],
+     complete: [Function: bound
+    ],
+     pipe: [Function
+    ],
+     data: [Function
+    ],
+     end: [Function
+    ]
+  },
+  _eventsCount: 5,
+  _maxListeners: undefined,
+  uri:
+   Url {
+     protocol: 'https:',
+     slashes: true,
+     auth: null,
+     host: 'www.example.edu',
+     port: 443,
+     hostname: 'www.example.edu',
+     hash: null,
+     search: null,
+     query: null,
+     pathname: '/',
+     path: '/',
+     href: 'https: //www.example.edu/' },
+  callback: [Function
+    ],
+  readable: true,
+  writable: true,
+  _qs:
+   Querystring {
+     request: [Circular
+      ],
+     lib: { formats: [Object
+        ], parse: [Function
+        ], stringify: [Function
+        ]
+      },
+     useQuerystring: undefined,
+     parseOptions: {},
+     stringifyOptions: {}
+    },
+  _auth:
+   Auth {
+     request: [Circular
+      ],
+     hasAuth: false,
+     sentAuth: false,
+     bearerToken: null,
+     user: null,
+     pass: null
+    },
+  _oauth: OAuth { request: [Circular
+      ], params: null
+    },
+  _multipart:
+   Multipart {
+     request: [Circular
+      ],
+     boundary: '9f0e7f0a-0151-46fa-8c5d-5eac6d8896e9',
+     chunked: false,
+     body: null
+    },
+  _redirect:
+   Redirect {
+     request: [Circular
+      ],
+     followRedirect: true,
+     followRedirects: true,
+     followAllRedirects: false,
+     followOriginalHttpMethod: false,
+     allowRedirect: [Function
+      ],
+     maxRedirects: 10,
+     redirects: [],
+     redirectsFollowed: 0,
+     removeRefererHeader: false
+    },
+  _tunnel:
+   Tunnel {
+     request: [Circular
+      ],
+     proxyHeaderWhiteList: [ 'accept',
+        'accept-charset',
+        'accept-encoding',
+        'accept-language',
+        'accept-ranges',
+        'cache-control',
+        'content-encoding',
+        'content-language',
+        'content-location',
+        'content-md5',
+        'content-range',
+        'content-type',
+        'connection',
+        'date',
+        'expect',
+        'max-forwards',
+        'pragma',
+        'referer',
+        'te',
+        'user-agent',
+        'via'
+      ],
+     proxyHeaderExclusiveList: []
+    },
+  headers: {},
+  setHeader: [Function
+    ],
+  hasHeader: [Function
+    ],
+  getHeader: [Function
+    ],
+  removeHeader: [Function
+    ],
+  method: 'GET',
+  localAddress: undefined,
+  pool: {},
+  dests: [],
+  __isRequestRequest: true,
+  _callback: [Function
+    ],
+  proxy: null,
+  tunnel: true,
+  setHost: true,
+  originalCookieHeader: undefined,
+  _disableCookies: true,
+  _jar: undefined,
+  port: 443,
+  host: 'www.example.edu',
+  path: '/',
+  httpModule: { Server: {
+        [Function: Server
+        ] super_: [Object
+        ]
+      },
+     createServer: [Function: createServer
+      ],
+     globalAgent:
+      Agent {
+        domain: null,
+        _events: [Object
+        ],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 443,
+        protocol: 'https:',
+        options: [Object
+        ],
+        requests: {},
+        sockets: [Object
+        ],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256,
+        maxCachedSessions: 100,
+        _sessionCache: [Object
+        ]
+      },
+     Agent: {
+        [Function: Agent
+        ] super_: [Object
+        ]
+      },
+     request: [Function: request
+      ],
+     get: [Function: get
+      ]
+    },
+  agentClass: {
+      [Function: Agent
+      ]
+     super_: {
+        [Function: Agent
+        ] super_: [Object
+        ], defaultMaxSockets: Infinity
+      }
+    },
+  agent:
+   Agent {
+     domain: null,
+     _events: { free: [Function
+        ]
+      },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     defaultPort: 443,
+     protocol: 'https:',
+     options: { path: null
+      },
+     requests: {},
+     sockets: { 'www.example.edu: 443: : : : : : : : :': [Array
+        ]
+      },
+     freeSockets: {},
+     keepAliveMsecs: 1000,
+     keepAlive: false,
+     maxSockets: Infinity,
+     maxFreeSockets: 256,
+     maxCachedSessions: 100,
+     _sessionCache: { map: [Object
+        ], list: [Array
+        ]
+      }
+    },
+  _started: true,
+  href: 'https: //www.example.edu/',
+  req:
+   ClientRequest {
+     domain: null,
+     _events: { socket: [Function
+        ],
+        response: [Function: bound
+        ],
+        error: [Function: bound
+        ],
+        drain: [Function
+        ],
+        prefinish: [Function: requestOnPrefinish
+        ]
+      },
+     _eventsCount: 5,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket:
+      TLSSocket {
+        _tlsOptions: [Object
+        ],
+        _secureEstablished: true,
+        _securePending: false,
+        _newSessionPending: false,
+        _controlReleased: true,
+        _SNICallback: null,
+        servername: null,
+        npnProtocol: false,
+        alpnProtocol: false,
+        authorized: true,
+        authorizationError: null,
+        encrypted: true,
+        _events: [Object
+        ],
+        _eventsCount: 9,
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: 'www.example.edu',
+        _readableState: [Object
+        ],
+        readable: false,
+        domain: null,
+        _maxListeners: undefined,
+        _writableState: [Object
+        ],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 60,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: undefined,
+        _server: null,
+        ssl: null,
+        _requestCert: true,
+        _rejectUnauthorized: true,
+        parser: null,
+        _httpMessage: [Circular
+        ],
+        read: [Function
+        ],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)
+        ]: 10,
+        [Symbol(bytesRead)
+        ]: 1626
+      },
+     connection:
+      TLSSocket {
+        _tlsOptions: [Object
+        ],
+        _secureEstablished: true,
+        _securePending: false,
+        _newSessionPending: false,
+        _controlReleased: true,
+        _SNICallback: null,
+        servername: null,
+        npnProtocol: false,
+        alpnProtocol: false,
+        authorized: true,
+        authorizationError: null,
+        encrypted: true,
+        _events: [Object
+        ],
+        _eventsCount: 9,
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: 'www.example.edu',
+        _readableState: [Object
+        ],
+        readable: false,
+        domain: null,
+        _maxListeners: undefined,
+        _writableState: [Object
+        ],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 60,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: undefined,
+        _server: null,
+        ssl: null,
+        _requestCert: true,
+        _rejectUnauthorized: true,
+        parser: null,
+        _httpMessage: [Circular
+        ],
+        read: [Function
+        ],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)
+        ]: 10,
+        [Symbol(bytesRead)
+        ]: 1626
+      },
+     _header: 'GET / HTTP/1.1\r\nhost: www.example.edu\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput
+      ],
+     agent:
+      Agent {
+        domain: null,
+        _events: [Object
+        ],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 443,
+        protocol: 'https:',
+        options: [Object
+        ],
+        requests: {},
+        sockets: [Object
+        ],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256,
+        maxCachedSessions: 100,
+        _sessionCache: [Object
+        ]
+      },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     path: '/',
+     _ended: true,
+     res:
+      IncomingMessage {
+        _readableState: [Object
+        ],
+        readable: false,
+        domain: null,
+        _events: [Object
+        ],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        socket: [Object
+        ],
+        connection: [Object
+        ],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object
+        ],
+        rawHeaders: [Array
+        ],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 200,
+        statusMessage: 'OK',
+        client: [Object
+        ],
+        _consuming: true,
+        _dumped: false,
+        req: [Circular
+        ],
+        request: [Circular
+        ],
+        toJSON: [Function: responseToJSON
+        ],
+        caseless: [Object
+        ],
+        read: [Function
+        ],
+        body: '<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset="utf-8" />\n    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\n    <style type="text/css">\n    body {\n        background-color: #f0f0f2;\n        margin: 0;\n        padding: 0;\n        font-family: -apple-system, system-ui, BlinkMacSystemFont,
+          "Segoe UI",
+          "Open Sans",
+          "Helvetica Neue", Helvetica, Arial, sans-serif;\n        \n
+        }\n    div {\n        width: 600px;\n        margin: 5em auto;\n        padding: 2em;\n        background-color: #fdfdff;\n        border-radius: 0.5em;\n        box-shadow: 2px 3px 7px 2px rgba(0,
+          0,
+          0,
+          0.02);\n
+        }\n    a:link, a:visited {\n        color: #38488f;\n        text-decoration: none;\n
+        }\n    @media (max-width: 700px) {\n        div {\n            margin: 0 auto;\n            width: auto;\n
+          }\n
+        }\n    </style>    \n</head>\n\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.</p>\n    <p><a href="https://www.iana.org/domains/example">More information...</a></p>\n</div>\n</body>\n</html>\n'
+      },
+     aborted: undefined,
+     timeoutCb: null,
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+      [Symbol(outHeadersKey)
+      ]: { host: [Array
+        ]
+      }
+    },
+  ntick: true,
+  response:
+   IncomingMessage {
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object
+        ],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: true,
+        endEmitted: true,
+        reading: false,
+        sync: false,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null
+      },
+     readable: false,
+     domain: null,
+     _events: { end: [Array
+        ],
+        close: [Array
+        ],
+        data: [Function
+        ],
+        error: [Function
+        ]
+      },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     socket:
+      TLSSocket {
+        _tlsOptions: [Object
+        ],
+        _secureEstablished: true,
+        _securePending: false,
+        _newSessionPending: false,
+        _controlReleased: true,
+        _SNICallback: null,
+        servername: null,
+        npnProtocol: false,
+        alpnProtocol: false,
+        authorized: true,
+        authorizationError: null,
+        encrypted: true,
+        _events: [Object
+        ],
+        _eventsCount: 9,
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: 'www.example.edu',
+        _readableState: [Object
+        ],
+        readable: false,
+        domain: null,
+        _maxListeners: undefined,
+        _writableState: [Object
+        ],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 60,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: undefined,
+        _server: null,
+        ssl: null,
+        _requestCert: true,
+        _rejectUnauthorized: true,
+        parser: null,
+        _httpMessage: [Object
+        ],
+        read: [Function
+        ],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)
+        ]: 10,
+        [Symbol(bytesRead)
+        ]: 1626
+      },
+     connection:
+      TLSSocket {
+        _tlsOptions: [Object
+        ],
+        _secureEstablished: true,
+        _securePending: false,
+        _newSessionPending: false,
+        _controlReleased: true,
+        _SNICallback: null,
+        servername: null,
+        npnProtocol: false,
+        alpnProtocol: false,
+        authorized: true,
+        authorizationError: null,
+        encrypted: true,
+        _events: [Object
+        ],
+        _eventsCount: 9,
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: 'www.example.edu',
+        _readableState: [Object
+        ],
+        readable: false,
+        domain: null,
+        _maxListeners: undefined,
+        _writableState: [Object
+        ],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 60,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: undefined,
+        _server: null,
+        ssl: null,
+        _requestCert: true,
+        _rejectUnauthorized: true,
+        parser: null,
+        _httpMessage: [Object
+        ],
+        read: [Function
+        ],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)
+        ]: 10,
+        [Symbol(bytesRead)
+        ]: 1626
+      },
+     httpVersionMajor: 1,
+     httpVersionMinor: 1,
+     httpVersion: '1.1',
+     complete: true,
+     headers: { 'accept-ranges': 'bytes',
+        age: '548172',
+        'cache-control': 'max-age=604800',
+        'content-type': 'text/html; charset=UTF-8',
+        date: 'Wed,
+        11 Mar 2020 22: 06: 44 GMT',
+        etag: '"3147526947"',
+        expires: 'Wed,
+        18 Mar 2020 22: 06: 44 GMT',
+        'last-modified': 'Thu,
+        17 Oct 2019 07: 18: 26 GMT',
+        server: 'ECS (sec/9795)',
+        vary: 'Accept-Encoding',
+        'x-cache': 'HIT',
+        'content-length': '1256',
+        connection: 'close'
+      },
+     rawHeaders: [ 'Accept-Ranges',
+        'bytes',
+        'Age',
+        '548172',
+        'Cache-Control',
+        'max-age=604800',
+        'Content-Type',
+        'text/html; charset=UTF-8',
+        'Date',
+        'Wed,
+        11 Mar 2020 22: 06: 44 GMT',
+        'Etag',
+        '"3147526947"',
+        'Expires',
+        'Wed,
+        18 Mar 2020 22: 06: 44 GMT',
+        'Last-Modified',
+        'Thu,
+        17 Oct 2019 07: 18: 26 GMT',
+        'Server',
+        'ECS (sec/9795)',
+        'Vary',
+        'Accept-Encoding',
+        'X-Cache',
+        'HIT',
+        'Content-Length',
+        '1256',
+        'Connection',
+        'close'
+      ],
+     trailers: {},
+     rawTrailers: [],
+     upgrade: false,
+     url: '',
+     method: null,
+     statusCode: 200,
+     statusMessage: 'OK',
+     client:
+      TLSSocket {
+        _tlsOptions: [Object
+        ],
+        _secureEstablished: true,
+        _securePending: false,
+        _newSessionPending: false,
+        _controlReleased: true,
+        _SNICallback: null,
+        servername: null,
+        npnProtocol: false,
+        alpnProtocol: false,
+        authorized: true,
+        authorizationError: null,
+        encrypted: true,
+        _events: [Object
+        ],
+        _eventsCount: 9,
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: 'www.example.edu',
+        _readableState: [Object
+        ],
+        readable: false,
+        domain: null,
+        _maxListeners: undefined,
+        _writableState: [Object
+        ],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 60,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: undefined,
+        _server: null,
+        ssl: null,
+        _requestCert: true,
+        _rejectUnauthorized: true,
+        parser: null,
+        _httpMessage: [Object
+        ],
+        read: [Function
+        ],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)
+        ]: 10,
+        [Symbol(bytesRead)
+        ]: 1626
+      },
+     _consuming: true,
+     _dumped: false,
+     req:
+      ClientRequest {
+        domain: null,
+        _events: [Object
+        ],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object
+        ],
+        connection: [Object
+        ],
+        _header: 'GET / HTTP/1.1\r\nhost: www.example.edu\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput
+        ],
+        agent: [Object
+        ],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/',
+        _ended: true,
+        res: [Circular
+        ],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)
+        ]: [Object
+        ]
+      },
+     request: [Circular
+      ],
+     toJSON: [Function: responseToJSON
+      ],
+     caseless: Caseless { dict: [Object
+        ]
+      },
+     read: [Function
+      ],
+     body: '<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset="utf-8" />\n    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\n    <style type="text/css">\n    body {\n        background-color: #f0f0f2;\n        margin: 0;\n        padding: 0;\n        font-family: -apple-system, system-ui, BlinkMacSystemFont,
+        "Segoe UI",
+        "Open Sans",
+        "Helvetica Neue", Helvetica, Arial, sans-serif;\n        \n
+      }\n    div {\n        width: 600px;\n        margin: 5em auto;\n        padding: 2em;\n        background-color: #fdfdff;\n        border-radius: 0.5em;\n        box-shadow: 2px 3px 7px 2px rgba(0,
+        0,
+        0,
+        0.02);\n
+      }\n    a:link, a:visited {\n        color: #38488f;\n        text-decoration: none;\n
+      }\n    @media (max-width: 700px) {\n        div {\n            margin: 0 auto;\n            width: auto;\n
+        }\n
+      }\n    </style>    \n</head>\n\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.</p>\n    <p><a href="https://www.iana.org/domains/example">More information...</a></p>\n</div>\n</body>\n</html>\n'
+    },
+  originalHost: 'www.example.edu',
+  originalHostHeaderName: 'host',
+  responseContent:
+   IncomingMessage {
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object
+        ],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: true,
+        endEmitted: true,
+        reading: false,
+        sync: false,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null
+      },
+     readable: false,
+     domain: null,
+     _events: { end: [Array
+        ],
+        close: [Array
+        ],
+        data: [Function
+        ],
+        error: [Function
+        ]
+      },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     socket:
+      TLSSocket {
+        _tlsOptions: [Object
+        ],
+        _secureEstablished: true,
+        _securePending: false,
+        _newSessionPending: false,
+        _controlReleased: true,
+        _SNICallback: null,
+        servername: null,
+        npnProtocol: false,
+        alpnProtocol: false,
+        authorized: true,
+        authorizationError: null,
+        encrypted: true,
+        _events: [Object
+        ],
+        _eventsCount: 9,
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: 'www.example.edu',
+        _readableState: [Object
+        ],
+        readable: false,
+        domain: null,
+        _maxListeners: undefined,
+        _writableState: [Object
+        ],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 60,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: undefined,
+        _server: null,
+        ssl: null,
+        _requestCert: true,
+        _rejectUnauthorized: true,
+        parser: null,
+        _httpMessage: [Object
+        ],
+        read: [Function
+        ],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)
+        ]: 10,
+        [Symbol(bytesRead)
+        ]: 1626
+      },
+     connection:
+      TLSSocket {
+        _tlsOptions: [Object
+        ],
+        _secureEstablished: true,
+        _securePending: false,
+        _newSessionPending: false,
+        _controlReleased: true,
+        _SNICallback: null,
+        servername: null,
+        npnProtocol: false,
+        alpnProtocol: false,
+        authorized: true,
+        authorizationError: null,
+        encrypted: true,
+        _events: [Object
+        ],
+        _eventsCount: 9,
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: 'www.example.edu',
+        _readableState: [Object
+        ],
+        readable: false,
+        domain: null,
+        _maxListeners: undefined,
+        _writableState: [Object
+        ],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 60,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: undefined,
+        _server: null,
+        ssl: null,
+        _requestCert: true,
+        _rejectUnauthorized: true,
+        parser: null,
+        _httpMessage: [Object
+        ],
+        read: [Function
+        ],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)
+        ]: 10,
+        [Symbol(bytesRead)
+        ]: 1626
+      },
+     httpVersionMajor: 1,
+     httpVersionMinor: 1,
+     httpVersion: '1.1',
+     complete: true,
+     headers: { 'accept-ranges': 'bytes',
+        age: '548172',
+        'cache-control': 'max-age=604800',
+        'content-type': 'text/html; charset=UTF-8',
+        date: 'Wed,
+        11 Mar 2020 22: 06: 44 GMT',
+        etag: '"3147526947"',
+        expires: 'Wed,
+        18 Mar 2020 22: 06: 44 GMT',
+        'last-modified': 'Thu,
+        17 Oct 2019 07: 18: 26 GMT',
+        server: 'ECS (sec/9795)',
+        vary: 'Accept-Encoding',
+        'x-cache': 'HIT',
+        'content-length': '1256',
+        connection: 'close'
+      },
+     rawHeaders: [ 'Accept-Ranges',
+        'bytes',
+        'Age',
+        '548172',
+        'Cache-Control',
+        'max-age=604800',
+        'Content-Type',
+        'text/html; charset=UTF-8',
+        'Date',
+        'Wed,
+        11 Mar 2020 22: 06: 44 GMT',
+        'Etag',
+        '"3147526947"',
+        'Expires',
+        'Wed,
+        18 Mar 2020 22: 06: 44 GMT',
+        'Last-Modified',
+        'Thu,
+        17 Oct 2019 07: 18: 26 GMT',
+        'Server',
+        'ECS (sec/9795)',
+        'Vary',
+        'Accept-Encoding',
+        'X-Cache',
+        'HIT',
+        'Content-Length',
+        '1256',
+        'Connection',
+        'close'
+      ],
+     trailers: {},
+     rawTrailers: [],
+     upgrade: false,
+     url: '',
+     method: null,
+     statusCode: 200,
+     statusMessage: 'OK',
+     client:
+      TLSSocket {
+        _tlsOptions: [Object
+        ],
+        _secureEstablished: true,
+        _securePending: false,
+        _newSessionPending: false,
+        _controlReleased: true,
+        _SNICallback: null,
+        servername: null,
+        npnProtocol: false,
+        alpnProtocol: false,
+        authorized: true,
+        authorizationError: null,
+        encrypted: true,
+        _events: [Object
+        ],
+        _eventsCount: 9,
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: 'www.example.edu',
+        _readableState: [Object
+        ],
+        readable: false,
+        domain: null,
+        _maxListeners: undefined,
+        _writableState: [Object
+        ],
+        writable: false,
+        allowHalfOpen: false,
+        _bytesDispatched: 60,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: undefined,
+        _server: null,
+        ssl: null,
+        _requestCert: true,
+        _rejectUnauthorized: true,
+        parser: null,
+        _httpMessage: [Object
+        ],
+        read: [Function
+        ],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1,
+        [Symbol(asyncId)
+        ]: 10,
+        [Symbol(bytesRead)
+        ]: 1626
+      },
+     _consuming: true,
+     _dumped: false,
+     req:
+      ClientRequest {
+        domain: null,
+        _events: [Object
+        ],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object
+        ],
+        connection: [Object
+        ],
+        _header: 'GET / HTTP/1.1\r\nhost: www.example.edu\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput
+        ],
+        agent: [Object
+        ],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/',
+        _ended: true,
+        res: [Circular
+        ],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        [Symbol(outHeadersKey)
+        ]: [Object
+        ]
+      },
+     request: [Circular
+      ],
+     toJSON: [Function: responseToJSON
+      ],
+     caseless: Caseless { dict: [Object
+        ]
+      },
+     read: [Function
+      ],
+     body: '<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset="utf-8" />\n    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\n    <style type="text/css">\n    body {\n        background-color: #f0f0f2;\n        margin: 0;\n        padding: 0;\n        font-family: -apple-system, system-ui, BlinkMacSystemFont,
+        "Segoe UI",
+        "Open Sans",
+        "Helvetica Neue", Helvetica, Arial, sans-serif;\n        \n
+      }\n    div {\n        width: 600px;\n        margin: 5em auto;\n        padding: 2em;\n        background-color: #fdfdff;\n        border-radius: 0.5em;\n        box-shadow: 2px 3px 7px 2px rgba(0,
+        0,
+        0,
+        0.02);\n
+      }\n    a:link, a:visited {\n        color: #38488f;\n        text-decoration: none;\n
+      }\n    @media (max-width: 700px) {\n        div {\n            margin: 0 auto;\n            width: auto;\n
+        }\n
+      }\n    </style>    \n</head>\n\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.</p>\n    <p><a href="https://www.iana.org/domains/example">More information...</a></p>\n</div>\n</body>\n</html>\n'
+    },
+  _destdata: true,
+  _ended: true,
+  _callbackCalled: true
+  }
